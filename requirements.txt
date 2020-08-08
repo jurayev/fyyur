@@ -1,4 +1,13 @@
+alembic
 babel
 python-dateutil==2.6.0
+Flask
 flask-moment
 flask-wtf
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Script
+psycopg2
+python-editor
+SQLAlchemy
+SQLAlchemy-Utils
