@@ -84,3 +84,22 @@ To start and run the local development server,
   ```
 
 4. Navigate to Home page [http://localhost:5000](http://localhost:5000)
+
+## Roadmap
+
+Future TODOs:
+* Add a live demo
+* Deploy application on Heroku
+* Add unit tests
+* Implement artist availability. An artist can list available times that they can be booked. Restrict venues from being able to create shows with artists during a show time that is outside of their availability.
+* Show Recent Listed Artists and Recently Listed Venues on the homepage, returning results for Artists and Venues sorting by newly created. Limit to the 10 most recently listed items.
+* Implement Search Artists by City and State, and Search Venues by City and State. Searching by "San Francisco, CA" should return all artists or venues in San Francisco, CA.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+The content of this repository is licensed under a [MIT License.](https://github.com/jurayev/fyyur/blob/master/LICENSE.md)
