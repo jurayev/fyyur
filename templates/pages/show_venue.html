@@ -52,8 +52,8 @@
 		{%for show in venue.upcoming_shows %}
 		<div class="col-sm-4">
 			<div class="tile tile-show">
-				<img src="{{ show.artist_image_link }}" alt="Show Artist Image" />
-				<h5><a href="/artists/{{ show.artist_id }}">{{ show.artist_name }}</a></h5>
+				<img src="{{ show.artist.image_link }}" alt="Show Artist Image" />
+				<h5><a href="/artists/{{ show.artist.id }}">{{ show.artist.name }}</a></h5>
 				<h6>{{ show.start_time|datetime('full') }}</h6>
 			</div>
 		</div>
@@ -66,14 +66,24 @@
 		{%for show in venue.past_shows %}
 		<div class="col-sm-4">
 			<div class="tile tile-show">
-				<img src="{{ show.artist_image_link }}" alt="Show Artist Image" />
-				<h5><a href="/artists/{{ show.artist_id }}">{{ show.artist_name }}</a></h5>
+				<img src="{{ show.artist.image_link }}" alt="Show Artist Image" />
+				<h5><a href="/artists/{{ show.artist.id }}">{{ show.artist.name }}</a></h5>
 				<h6>{{ show.start_time|datetime('full') }}</h6>
 			</div>
 		</div>
 		{% endfor %}
 	</div>
 </section>
+<section>
+	<div class="row">
+		<form class="form col-sm-2" method="get" action="/venues/{{venue.id}}/edit">
+			<input class="btn btn-primary btn-md btn-block" type="submit" value="Edit">
+		</form>
+		<form class="form col-sm-2">
+			<input class="btn btn-primary btn-md btn-block" data-id="{{venue.id}}" type="submit" value="Delete" onclick="deleteVenue(event)">
+		</form>
+	</div>
+</section>		
 
 {% endblock %}
 
