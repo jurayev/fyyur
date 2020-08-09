@@ -5,6 +5,8 @@ Fyyur
 
 Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.
 
+All backend code base follows [PEP8 style guidelines.](https://www.python.org/dev/peps/pep-0008)
+
 ### Overview
 
 Main functionality of fyyur application:
@@ -99,7 +101,7 @@ Future TODOs:
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+Please make sure to update tests as appropriate and follow the PEP8 style guide.
 
 ## License
 
