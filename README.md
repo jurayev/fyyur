@@ -9,9 +9,10 @@ Fyyur is a musical venue and artist booking site that facilitates the discovery 
 
 Main functionality of fyyur application:
 
-* creating new venues, artists, and creating new shows.
-* searching for venues and artists.
-* learning more about a specific artist or venue.
+* creating new venues, artists, and creating new shows
+* editing/deleting existing venues and artist
+* searching for venues and artists
+* learning more about a specific artist or venue
 
 ### Tech Stack
 
