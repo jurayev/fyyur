@@ -5,6 +5,8 @@ Fyyur
 
 Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.
 
+TRY IT NOW! https://fyyur-musical-performance.herokuapp.com
+
 All backend code base follows [PEP8 style guidelines.](https://www.python.org/dev/peps/pep-0008)
 
 ### Overview
@@ -92,7 +94,7 @@ To start and run the local development server,
 
 Future TODOs:
 * Add a live demo
-* Deploy application on Heroku
+* ~~Deploy application on Heroku~~
 * Add unit tests
 * Implement artist availability. An artist can list available times that they can be booked. Restrict venues from being able to create shows with artists during a show time that is outside of their availability.
 * Show Recent Listed Artists and Recently Listed Venues on the homepage, returning results for Artists and Venues sorting by newly created. Limit to the 10 most recently listed items.
