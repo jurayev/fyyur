@@ -11,7 +11,7 @@ TRY IT NOW! https://fyyur-musical-performance.herokuapp.com
 
 All backend code base follows [PEP8 style guidelines.](https://www.python.org/dev/peps/pep-0008)
 
-## Live Demo
+### Live Demo
 
 ![Fyyur Demo](images/fyyur-demo.gif)
 
@@ -99,7 +99,7 @@ To start and run the local development server,
 ## Roadmap
 
 Future TODOs:
-* Add a live demo
+* ~~Add a live demo~~
 * ~~Deploy application on Heroku~~
 * Add unit tests
 * Implement artist availability. An artist can list available times that they can be booked. Restrict venues from being able to create shows with artists during a show time that is outside of their availability.
