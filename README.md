@@ -7,6 +7,8 @@ Fyyur is a musical venue and artist booking site that facilitates the discovery 
 
 TRY IT NOW! https://fyyur-musical-performance.herokuapp.com
 
+!!! NOTE !!! Application is being hosted on heroku web-server, so it might take a few minutes on the first attempt to browse fyyur application.
+
 All backend code base follows [PEP8 style guidelines.](https://www.python.org/dev/peps/pep-0008)
 
 ### Overview
