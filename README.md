@@ -11,6 +11,10 @@ TRY IT NOW! https://fyyur-musical-performance.herokuapp.com
 
 All backend code base follows [PEP8 style guidelines.](https://www.python.org/dev/peps/pep-0008)
 
+## Live Demo
+
+![Fyyur Demo](images/fyyur-demo.gif)
+
 ### Overview
 
 Main functionality of fyyur application:
